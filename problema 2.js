@@ -1,5 +1,5 @@
 function reverse(s,x,y){
-  ns="";
+  ns=" ";
   for(var i=0;i<x;i++)ns+=s[i];
   for(var i=y-1;i>=x+1;i--)ns+=s[i];
   for(var i=y+1;i<s.length;i++)ns+=s[i];
@@ -27,4 +27,4 @@ function reverseInParentheses(s){
   }
 }
 var s="foo(bar(baz))blim";
-console.log(reverseInParentheses(s))
+console.log(reverseInParentheses(s));
